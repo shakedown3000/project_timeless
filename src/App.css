@@ -1,0 +1,9 @@
+main {
+  background-image: url(/Background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+  height: 100%;
+}
