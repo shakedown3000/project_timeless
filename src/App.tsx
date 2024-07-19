@@ -11,9 +11,7 @@ function App() {
   return (
     <body>
       <main>
-        <p>
-          <span className="timeless">TIMELESS</span>
-        </p>
+      
         <Hero />
         <Section_Our_Story />
         <Products />
