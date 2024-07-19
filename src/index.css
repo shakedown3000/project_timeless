@@ -23,3 +23,15 @@ h1 {
 h2 {
   font-size: 33px;
 }
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../../public/Inter/static/Inter-Regular.ttf);
+}
+h3 {
+  font-family: "Inter";
+  font-weight: 100;
+  font-size: 3rem;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+}
