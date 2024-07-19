@@ -1,4 +1,18 @@
 :root {
   margin: 0;
   box-sizing: border-box;
+  --darkbrownlight: #1a1a1a;
+  --brownblack: #121212;
+  font-family: "Inter";
+  font-size: 16px;
+  color: white;
+}
+
+h1 {
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 33px;
 }

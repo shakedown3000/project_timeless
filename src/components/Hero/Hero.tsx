@@ -2,9 +2,9 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <>
-      <p>Test Hero</p>
-    </>
+    <section className="hero_section">
+      <img id="logo" src="/logo.svg" alt="Logo" />
+    </section>
   );
 };
 

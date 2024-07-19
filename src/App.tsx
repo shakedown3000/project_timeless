@@ -9,16 +9,20 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <main>
-      <p>Test</p>
-      <Hero />
-      <Section_Our_Story />
-      <Products />
-      <Partnership />
-      <Showroom />
-      <News />
-      <Footer />
-    </main>
+    <body>
+      <main>
+        <p>
+          <span className="timeless">TIMELESS</span>
+        </p>
+        <Hero />
+        <Section_Our_Story />
+        <Products />
+        <Partnership />
+        <Showroom />
+        <News />
+        <Footer />
+      </main>
+    </body>
   );
 }
 

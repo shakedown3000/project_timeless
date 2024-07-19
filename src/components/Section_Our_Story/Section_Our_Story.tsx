@@ -2,9 +2,9 @@ import "./Section_Our_Story.css";
 
 const Section_Our_Story = () => {
   return (
-    <>
-      <p>Test 1</p>
-    </>
+    <section className="our_story">
+      <p>Section Our Story</p>
+    </section>
   );
 };
 

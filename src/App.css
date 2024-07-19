@@ -1,4 +1,4 @@
-main {
+body {
   background-image: url(/Background.jpg);
   background-position: center;
   background-size: cover;
@@ -6,4 +6,17 @@ main {
   color: white;
   background-attachment: fixed;
   height: 100%;
+}
+
+main {
+  max-width: 1600px;
+}
+
+.timeless {
+  font-size: 100px;
+  text-align: center;
+  display: block;
+  margin-top: 70vh;
+  letter-spacing: 60px;
+  font-weight: 100;
 }
