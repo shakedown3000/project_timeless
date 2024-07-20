@@ -11,6 +11,7 @@ const Section_Our_Story = () => {
           <div className="line"></div>
         </div>
         <img
+          id="ourStoryImage"
           src="/public/6a1f1689481903.5df65ad917545@2x.jpg"
           alt="ding_room"
         />
