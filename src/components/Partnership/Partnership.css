@@ -1,0 +1,98 @@
+.partnership {
+  overflow-x: hidden;
+  padding-top: 100px;
+  text-align: center;
+  height: 100vh;
+  background-color: var(--darkbrownlight);
+}
+
+.partnership h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.partnership p:first-of-type {
+  letter-spacing: 2px;
+}
+
+.scroll-container p {
+  font-size: 55px;
+}
+
+.scroll-container {
+  /* position: relative; */
+  margin-top: 100px;
+  position: relative;
+  white-space: nowrap;
+  width: 200%;
+  letter-spacing: 10px;
+}
+
+#first_paragraph {
+  /* display: inline-block; */
+  white-space: nowrap;
+  animation: moveRight 40s linear infinite;
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#second_paragraph {
+  /* display: inline-block; */
+  white-space: nowrap;
+  opacity: 80%;
+  animation: moveRightSlower 30s linear infinite;
+}
+
+@keyframes moveRightSlower {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#third_paragraph {
+  opacity: 60%;
+  animation: moveLeft 25s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+#fourth_paragraph {
+  opacity: 40%;
+  animation: moveRight 30s linear infinite;
+}
+
+@media (max-width: 1200px) {
+  .scroll-container p {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-container p {
+    font-size: 35px;
+    animation: moveRightSlower 40s linear infinite;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-container p {
+    font-size: 25px;
+  }
+}

@@ -15,11 +15,11 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 100vh;
   margin: 0;
-  background-color: var(--brownblack);
+  background-color: var(--darkbrownlight);
   font-family: "Inter Light";
-  border: solid red 4px;
+  /* border: solid red 4px; */
 }
 
 .grid-container {
@@ -27,7 +27,6 @@ h3 {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  background-color: var(--brownblack);
 }
 
 .grid-item {
