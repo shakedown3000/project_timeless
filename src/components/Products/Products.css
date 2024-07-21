@@ -99,6 +99,7 @@
 .product_gallery_right:hover .popup_div {
   opacity: 0.75;
   transform: translateY(0);
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
