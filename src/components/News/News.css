@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Inter";
-  src: url(../../../public/Inter/static/Inter-Regular.ttf);
+  src: url(/Inter/static/Inter-Regular.ttf);
 }
 h3 {
   font-family: "Inter";

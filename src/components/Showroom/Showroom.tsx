@@ -6,7 +6,7 @@ const Showroom = () => {
       <div className="showroom_outer_wrapper">
         <img
           id="showroom_picture"
-          src="/public/Imanoglou_About_Photo_4.jpg"
+          src="/Imanoglou_About_Photo_4.jpg"
           alt="Kitchen Showroom"
         ></img>
         <div className="showroom_inner_wrapper">

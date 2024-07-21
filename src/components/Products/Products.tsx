@@ -9,15 +9,9 @@ const Products = () => {
         and unique objects.
       </p>
       <div className="curated_image_wrapper">
-        <img src="/public/03_Curated_WAT_HUBLOT_b.jpg" alt="goldwatch" />
-        <img
-          src="/public/04_Curated_Fine_Ring_Product_b.jpg"
-          alt="silver ring"
-        />
-        <img
-          src="/public/07_Curated_DEC_Locherber_b-1.jpg"
-          alt="sented_sticks"
-        />
+        <img src="/03_Curated_WAT_HUBLOT_b.jpg" alt="goldwatch" />
+        <img src="/04_Curated_Fine_Ring_Product_b.jpg" alt="silver ring" />
+        <img src="/07_Curated_DEC_Locherber_b-1.jpg" alt="sented_sticks" />
       </div>
     </section>
   );

@@ -26,14 +26,14 @@ h2 {
 
 @font-face {
   font-family: "Inter";
-  src: url(../../../public/Inter/static/Inter-Regular.ttf);
+  src: url(/Inter/static/Inter-Regular.ttf);
 }
 
 /* Bitte überprüfen */
-/* h3 {
+h3 {
   font-family: "Inter";
   font-weight: 100;
   font-size: 3rem;
   margin-top: -3rem;
   margin-bottom: 2rem;
-} */
+}
