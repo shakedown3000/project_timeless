@@ -2,14 +2,33 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <>
-      <section className="hero_section">
-        <img id="logo" src="/logo.svg" alt="Logo" />
-        <p>
-          <span className="timeless">TIMELESS</span>
-        </p>
-      </section>
-    </>
+    <section className="hero">
+      <header>
+        <nav>
+          <img id="logo" src="/logo.svg" alt="Logo" />
+          <div className="nav_wrap">
+            <p>
+              <a href="#">Home</a>
+            </p>
+            <p>
+              <a href="#">News</a>
+            </p>
+            <p>
+              <a href="#">Contact</a>
+            </p>
+            <p>
+              <a href="#">About</a>
+            </p>
+          </div>
+        </nav>
+
+        <div className="lower_hero">
+          <p>
+            <span className="timeless">TIMELESS</span>
+          </p>
+        </div>
+      </header>
+    </section>
   );
 };
 
