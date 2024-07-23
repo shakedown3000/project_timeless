@@ -2,6 +2,8 @@
 
 Explore the full experience by visiting the site on [Netlify](https://projecttimeless.netlify.app/).
 
+![Screenshot 2](/public/Timeless_Screenshot3.png)
+
 # Timeless Watches Shop
 
 Welcome to Timeless Watches Shop – where luxury and sophistication meet. The website has been meticulously crafted to reflect the elegance of our timepieces and provide an unparalleled shopping experience.
@@ -41,8 +43,6 @@ The Footer section provides essential links and contact information, ensuring vi
 - **Performance Optimization**: With a focus on speed and efficiency, the design and development strategies ensure quick load times and smooth interactions.
 
 ## Screenshots
-
-Here are some screenshots showcasing the elegance and functionality of the website:
 
 ![Screenshot 1](/public/Timeless_Screenshot1.png)
 ![Screenshot 2](/public/Timeless_Screenshot2.png)
