@@ -23,9 +23,7 @@ const Hero = () => {
         </nav>
 
         <div className="lower_hero">
-          <p>
-            <span className="timeless">TIMELESS</span>
-          </p>
+          <p>TIMELESS</p>
         </div>
       </header>
     </section>

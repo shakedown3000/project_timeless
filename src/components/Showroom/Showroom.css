@@ -1,33 +1,31 @@
 .showroom {
   height: 100vh;
-  padding: 10vh;
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 100%;
   background-color: var(--brownblack);
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .showroom_outer_wrapper {
-  padding-top: 100px;
-  padding-left: 20%;
-  padding-bottom: 200px;
-  margin-left: var(50% - 700px);
-  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .showroom_inner_wrapper {
-  margin-right: 10%;
-  top: 200px;
-  right: 50px;
-  position: absolute;
+  margin-left: -150px;
   min-width: 200px;
-  max-width: 500px;
+  max-width: 600px;
   height: auto;
-  margin-left: 40%;
 }
 
 #showroom_picture {
-  width: 80%;
-  max-width: 700px;
+  width: 60%;
+  min-width: 200px;
 }
 
 .showroom_headline_div {

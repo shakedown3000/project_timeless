@@ -4,22 +4,19 @@ const News = () => {
   return (
     <div className="news-wrapper">
       <h3>News</h3>
-      <div className="grid-container">
-        <div className="grid-item image1">
-          <img
-            src="/omega131-63-41-21-01-001amb-jpg-2.-1024x683.jpg"
-            alt="Image 1"
-          />
+
+      <div className="gallery">
+        <div className="img-container"></div>
+        <div className="inner-gallery-img">
+          <div className="inner-img"></div>
+          <p>TRUE THINLINE LES COULEURS LE CORBUSIER</p>
+          <p>
+            We are proud to present a highlight from our new collection – the
+            True Thinline Les Couleurs™ Le Corbusier.
+          </p>
+          <p className="all_news">&#8213; See all the news &#10230;</p>
         </div>
-        <div className="grid-item image2">
-          <img src="/featured_rado-1-1024x525.jpg" alt="Image 2" />
-        </div>
-        <div className="grid-item image3">
-          <img
-            src="/01_chronomat-b01-42-with-a-silver-dial-and-black-contrasting-chronograph-counters-1024x579.jpg"
-            alt="Image 3"
-          />
-        </div>
+        <div className="img-container"></div>
       </div>
     </div>
   );

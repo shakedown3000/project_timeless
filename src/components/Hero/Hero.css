@@ -30,6 +30,10 @@ nav {
   opacity: 1;
 }
 
+#logo:hover {
+  cursor: pointer;
+}
+
 .nav_wrap {
   display: flex;
   gap: 10px;
@@ -54,6 +58,7 @@ nav {
 .lower_hero > p {
   font-size: 100px;
   letter-spacing: 50px;
+  margin-right: -100px;
   font-weight: 100;
   transition: letter-spacing 0.3s ease-in-out;
 }

@@ -23,11 +23,23 @@
 h2 {
   letter-spacing: 10px;
   font-weight: 100;
+  transition: letter-spacing 0.3s ease;
 }
+
+h2:hover {
+  letter-spacing: 0.5em;
+  transition: letter-spacing 0.5s ease;
+}
+
 .line {
   width: 1000px;
   height: 47px;
   border-bottom: 1px solid white;
+  transition: width 0.3s ease;
+}
+
+.line:hover {
+  width: 1200px;
 }
 
 .luxury {

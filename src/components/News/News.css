@@ -1,4 +1,9 @@
-h3 {
+.news-wrapper {
+  font-family: "Inter";
+  font-weight: 100;
+}
+
+.news-wrapper h3 {
   font-family: "Inter";
   font-weight: 100;
   font-size: 3rem;
@@ -12,42 +17,80 @@ h3 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
   background-color: var(--darkbrownlight);
   font-family: "Inter Light";
 }
 
-.grid-container {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.grid-item {
+.gallery {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--brownblack);
+  gap: 30px;
 }
 
-.image1 {
-  grid-row: 2 / span 2;
-  grid-column: 1;
+.img-container,
+.inner-img {
+  width: 400px;
+  min-width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-position: center;
+  background-size: 115%;
+  transition: background-size 1s;
 }
 
-.image2 {
-  grid-row: 1 / span 2;
-  grid-column: 2;
+.img-container:hover,
+.inner-img:hover {
+  background-size: 200%;
 }
 
-.image3 {
-  grid-row: 2 / span 2;
-  grid-column: 3;
+.gallery .img-container:nth-child(1) {
+  background-image: url(/public/omega131-63-41-21-01-001amb-jpg-2.-1024x683.jpg);
 }
 
-img {
-  max-width: 100%;
-  /* max-height: 100%; */
-  /* object-fit: cover; */
+.gallery .img-container:nth-of-type(3) {
+  background-image: url(/01_chronomat-b01-42-with-a-silver-dial-and-black-contrasting-chronograph-counters-1024x579.jpg);
+}
+
+.inner-img {
+  background-image: url(/featured_rado-1-1024x525.jpg);
+  background-size: 130%;
+}
+
+.inner-gallery-img {
+  font-family: "Inter";
+  font-weight: 100;
+  width: 400px;
+  min-width: 200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.all_news {
+  text-transform: uppercase;
+  font-size: 1em;
+  transition: zoom 0.3s ease;
+  cursor: default;
+}
+
+.all_news:hover {
+  zoom: 1.3;
+  cursor: pointer;
+}
+
+.inner-gallery-img p:first-of-type {
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+
+.inner-gallery-img p:nth-of-type(2) {
+  font-size: 15px;
+  letter-spacing: 5;
 }
