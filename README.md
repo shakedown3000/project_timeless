@@ -2,7 +2,7 @@
 
 Explore the full experience by visiting the site on [Netlify](https://projecttimeless.netlify.app/).
 
-![Screenshot 2](/public/Timeless_Screenshot3.png)
+![Screenshot 2](/public/Screenshot3.png)
 
 # Timeless Watches Shop
 
